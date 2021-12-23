@@ -6,7 +6,7 @@ pipeline {
                                 echo 'Hi,this is ankitha'
                                 }
                                }
-                   stage("TWO")
+              stage("TWO") {
                         steps {
                                 input('Do u want to proceed?')
                                 }
